@@ -1,0 +1,71 @@
+# Core ML Libraries
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+
+# Web Interface
+gradio>=3.35.0
+
+# Utilities
+accelerate>=0.20.0
+tqdm>=4.65.0
+
+# Optional (for advanced features)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+```
+
+---
+
+##  **HOW TO USE THIS:**
+
+### **Method 1: GitHub Web Interface**
+1. Go to your GitHub repository
+2. Click **"Add file"** → **"Create new file"**
+3. In the filename box, type: `requirements.txt`
+4. Copy and paste all the text above
+5. Scroll down and click **"Commit new file"**
+
+### **Method 2: If Working Locally**
+1. Create a new file named `requirements.txt` in your project folder
+2. Paste the content above
+3. Save the file
+
+---
+
+##  **WHAT EACH LIBRARY DOES:**
+
+| Library | Purpose | Your Usage |
+|---------|---------|------------|
+| **torch** | PyTorch deep learning framework | Model training & inference |
+| **transformers** | Hugging Face library for BERT models | DistilBERT fine-tuning |
+| **datasets** | Dataset loading and processing | Handling training data |
+| **pandas** | Data manipulation | CSV processing |
+| **numpy** | Numerical operations | Array operations |
+| **scikit-learn** | ML metrics and preprocessing | Accuracy, precision, recall |
+| **gradio** | Web UI framework | Interactive web app |
+| **accelerate** | Training optimization | Mixed precision (FP16) |
+| **tqdm** | Progress bars | Training progress display |
+| **matplotlib** | Plotting (optional) | Visualizations |
+| **seaborn** | Statistical plots (optional) | Advanced visualizations |
+
+---
+
+##  **VERIFICATION:**
+
+After creating the file, your repository should have:
+```
+mental-health-sentiment-analysis/
+├── README.md                    
+├── requirements.txt           
+├── .gitignore                  
+├── notebooks/
+│   └── Model.ipynb         
+├── app/
+│   └── app.py                  
+└── screenshots/
